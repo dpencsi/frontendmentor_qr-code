@@ -47,6 +47,7 @@ body {
     font-style: normal;
     font-size: var(--text-preset-2);
     line-height: var(--line-preset-2);
+    letter-spacing: var(--letter-preset-2);
 }
 
 h2 {
