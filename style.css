@@ -1,0 +1,44 @@
+:root {
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+
+    /* Font */
+    --family-sans: "Outfit", sans-serif;
+    --text-preset-1: 22px;
+    --text-preset-2: 15px;
+    --line-preset-1: 1.2; /* line heights best are when skip the unit messurements like not 120% but 1.2 */
+    --line-preset-2: 1.4;
+    --letter-preset-1: 0;
+    --letter-preset-2: 0.2px;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased; /* Smoother font like in a figma design */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Spacing */
+    --space-200: 16px; /* 2*8 = 16px or 1rem */
+    --space-300: 24px; /* 3*8 = 24px or 1.5rem */
+    --space-500: 40px; /* 5*8 = 40px or 2.5rem */
+
+    /* Border */
+    --radius-lg: 20px;
+    --radius-sm: 10px;
+
+    /* Shadow */
+    --shadow: 0 25px 25px hsl(from black h s l / 0.0477);
+}
+
+body {
+    background-color: var(--slate-300);
+    color: var(--slate-500);
+    font-family: var(--family-sans);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--text-preset-2);
+    line-height: var(--line-preset-2);
+}
