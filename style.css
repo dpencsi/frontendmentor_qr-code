@@ -102,3 +102,9 @@ picture {
         margin-top: var(--space-200);
     }
 }
+
+@media (max-width: 375px) {
+    .card {
+        margin: 0 var(--space-200);
+    }
+}
