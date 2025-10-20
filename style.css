@@ -32,6 +32,12 @@
     --shadow: 0 25px 25px hsl(from black h s l / 0.0477);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--slate-300);
     color: var(--slate-500);
@@ -41,4 +47,17 @@ body {
     font-style: normal;
     font-size: var(--text-preset-2);
     line-height: var(--line-preset-2);
+}
+
+h2 {
+    color: var(--slate-900);
+    font-size: var(--text-preset-1);
+    line-height: var(--line-preset-1);
+    letter-spacing: var(--letter-preset-1);
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
 }
